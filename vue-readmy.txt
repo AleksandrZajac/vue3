@@ -38,3 +38,10 @@ import { createApp } from 'vue'
 import App from './App'
 
 createApp(App).mount('#app')
+-----------------------------------------
+create form Post.Vue
+---------------------------------------
+create components 
+
+PostList.vue
+PostForm.vue
