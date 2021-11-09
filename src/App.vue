@@ -1,7 +1,3 @@
-создаем App.vue
-
-первый пример в App.vue
-
 <template>
   <button v-on:click="addLike">Like</button>
   <button v-on:click="addDislike">Dislike</button>
@@ -31,10 +27,3 @@
 <style>
 
 </style>
-
-в main.js
-
-import { createApp } from 'vue'
-import App from './App'
-
-createApp(App).mount('#app')
