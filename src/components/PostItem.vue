@@ -8,7 +8,7 @@
 <script>
   export default {
     props: {
-      posts: {
+      post: {
         type: Object,
         required: true,
       }

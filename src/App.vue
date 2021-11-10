@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import PostForm from './components/PostForm';
-import PostList from '@/components/PostList';
+  import PostForm from './components/PostForm';
+  import PostList from '@/components/PostList';
   export default {
     components: {
       PostForm,
@@ -21,8 +21,8 @@ import PostList from '@/components/PostList';
       return {
         posts: [
           {id: 1, title: 'Javascript', body: 'Описание поста'},
-          {id: 1, title: 'Javascript 2', body: 'Описание поста 2'},
-          {id: 1, title: 'Javascript 3', body: 'Описание поста 3'},
+          {id: 2, title: 'Javascript 2', body: 'Описание поста 2'},
+          {id: 3, title: 'Javascript 3', body: 'Описание поста 3'},
         ],
       }
     },
