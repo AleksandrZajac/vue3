@@ -1,5 +1,5 @@
 <template>
-    <div class="post" v-for="post in posts">
+    <div class="post">
       <div><strong>Название:</strong> {{ post.title }}</div>
       <div><strong>Описание:</strong> {{ post.body }}</div>
     </div>
@@ -9,7 +9,7 @@
   export default {
     props: {
       posts: {
-        type: Array,
+        type: Object,
         required: true,
       }
     }
@@ -17,9 +17,5 @@
 </script>
 
 <style scoped>
-    .post {
-    padding: 15px;
-    border: 1px solid teal;
-    margin-top: 15px;
-  }
+
 </style>
