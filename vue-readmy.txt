@@ -57,3 +57,4 @@ https://jsonplaceholder.typicode.com/posts?_limit=10
 
 получить посты с сервера
 ------------------------------------------------------
+setTimeout and mounted
