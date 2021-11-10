@@ -5,6 +5,7 @@
     />
     <post-list
       v-bind:posts="posts"
+      @remove="removePost"
       />
   </div>
 </template>
@@ -30,7 +31,9 @@
       createPost(post, second) {
         this.posts.push(post);
         console.log(second);
-
+      },
+      removePost(post) {
+        this.posts = this.posts.filter(p => p.id !== post.id);
       }
     }
   }
