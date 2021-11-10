@@ -45,3 +45,15 @@ create components
 
 PostList.vue
 PostForm.vue
+
+--------------------------------------
+взаимодействие с сервером 
+устанавливаем библиотеку axios
+npm i axios
+
+https://jsonplaceholder.typicode.com/
+
+https://jsonplaceholder.typicode.com/posts?_limit=10
+
+получить посты с сервера
+------------------------------------------------------
