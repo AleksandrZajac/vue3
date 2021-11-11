@@ -2,11 +2,16 @@
   <div class="app">
     <h1>Страница с постами</h1>
     <input type="text" v-model.trim="modificatorValue">
-    <my-button
-      @click="showDialog"
-    >
+    <div class="app__btns">
+      <my-button
+        @click="showDialog"
+      >
       Создать пользователя
-    </my-button>
+      </my-button>
+      <my-select
+
+      />
+    </div>
     <my-dialog v-model:show="dialogVisible">
       <post-form
         @create="createPost"
@@ -74,6 +79,11 @@
 <style>
   .app {
     padding: 20px;
+  }
+
+  .app_btns {
+    display: flex;
+    justify-content: space-between;
   }
 
   * {
